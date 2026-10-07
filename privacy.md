@@ -45,6 +45,11 @@ about that person and your About you go along. Otherwise:
   message; a question that reads a WhatsApp chat, the calls in it: when each was, how long it lasted, which way it
   went and whether it was missed. They come from your call history, if you allowed it, and from WhatsApp's call
   notifications. Never the number, never any audio, never the rest of your call history.
+- **A report you email.** If you report an AI answer (press and hold it, Report this answer), the report stays on the
+  phone under Settings › Privacy and data › Reports until you choose Email the developer or Email all reports. That
+  opens your mail app, addressed to the address at the bottom of this page, with the report filled in: when, which
+  chat and answer, the model and company, what was wrong and the note you typed. Never the messages the answer
+  read. You see the text before anything is sent, and you send it from your mail app.
 - **Learning.** About 1,000 texts you sent (never what others wrote) go once to the model, with names and numbers
   taken out, to learn how you write. The first time the AI writes for someone, up to 300 of your texts to them and your
   newest 150 texts with them, theirs too, go once, to learn how you text them and a few lasting things about them;
@@ -98,8 +103,9 @@ hold.
 
 ## Your controls
 
-- **Settings › Privacy and data:** What leaves the phone, Delete all chats, Delete everything (the index, all chats and
-  every key are removed and the app returns to setup).
+- **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
+  any time), Delete all chats, Delete everything (the index, all chats, every key and every report are removed and
+  the app returns to setup).
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
 - **Uninstalling the app** removes everything it kept.
 
