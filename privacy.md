@@ -27,7 +27,10 @@ messages, your contacts or your keys. There is no account, no server of ours, no
 
 ## What leaves the phone, and when
 
-Nothing leaves until you ask the AI something. Then:
+Nothing leaves until you ask the AI something, with one exception you turn on yourself: with "Prepare reply ideas as
+texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
+company as it arrives, so the alert can offer reply ideas; with "Full reply ideas" on as well, what the app has noted
+about that person and your About you go along. Otherwise:
 
 - **A question in Ask AI, Reply ideas, a draft, Catch me up.** The AI searches the on-device index and the messages it
   opens are sent to the AI company of that chat, including what others wrote to you. You see every lookup under the
