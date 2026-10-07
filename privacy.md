@@ -9,18 +9,20 @@ in the app. When a feature changes what leaves the phone, this page changes with
 ## The short version
 
 Message AI reads your texts on your phone to answer questions about them, suggest replies and remind you who is
-waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, and then it
-goes only to the AI company you chose and gave your own key for. Nobody who makes Message AI ever receives your
-messages, your contacts or your keys. There is no account, no server of ours, no analytics and no advertising.
+waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, or turn on
+"Prepare reply ideas as texts arrive", and then it goes only to the AI company you chose and gave your own key for.
+Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no server of
+ours, no analytics and no advertising.
 
 ## What stays on the phone
 
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
   app sees arrive in WhatsApp. They are kept in an index in the app's private storage, excluded from cloud backup and
   device-to-device transfer.
-- **Your contacts** (names for the numbers you text), **your call history** (only if you allow it, to know when you
-  talked instead of texting), **voice messages turned into text** (Android's own on-device speech recognizer; the audio
-  never leaves the phone).
+- **Your contacts** (names and birthdays for the numbers you text) and **your call history** (only if you allow it, to
+  know when you talked instead of texting). Neither list is ever sent; a name, an approximate age or a call's time and
+  length can go with a question, as described below.
+- **Voice messages turned into text** (Android's own on-device speech recognizer; the audio never leaves the phone).
 - **Your chats with the AI and their answers**, what the app learned about how you write and about each person, the
   notes you wrote in About you, and the app's own usage log (tokens and estimated cost per question).
 - **Your API keys**, wrapped with a key that lives in the Android Keystore and cannot be exported.
@@ -35,6 +37,14 @@ about that person and your About you go along. Otherwise:
 - **A question in Ask AI, Reply ideas, a draft, Catch me up.** The AI searches the on-device index and the messages it
   opens are sent to the AI company of that chat, including what others wrote to you. You see every lookup under the
   answer ("Sources · what left the phone"). Follow-up questions re-send the chat so far.
+- **Names and ages.** Each message the AI reads goes with its sender's name as your contacts have it, or the number
+  when there is no contact. When a person's birthday is known (typed by you, or from your contacts), questions and reply
+  ideas about them say roughly how old they are ("about 12", never the date), and reply ideas on the day say it is their
+  birthday. Your contact list itself is never sent.
+- **Calls.** Catch me up sends the calls with that person in the stretch it covers; Reply ideas, a call after their last
+  message; a question that reads a WhatsApp chat, the calls in it: when each was, how long it lasted, which way it
+  went and whether it was missed. They come from your call history, if you allowed it, and from WhatsApp's call
+  notifications. Never the number, never any audio, never the rest of your call history.
 - **Learning.** About 1,000 texts you sent (never what others wrote) go once to the model, with names and numbers
   taken out, to learn how you write. The first time the AI writes for someone, up to 300 of your texts to them and your
   newest 150 texts with them, theirs too, go once, to learn how you text them and a few lasting things about them;
@@ -71,7 +81,8 @@ hold.
 
 ## What the app never does
 
-- Never sends a message by itself. A reply you choose is handed to your messaging app, and you send it there.
+- Never sends a message without your confirm. A reply you choose goes out through your messaging app: through its own
+  Reply on the notification once you tap Send, or opened there with the text filled in for you to send.
 - Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key.
 - Never runs analytics, advertising or tracking. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
@@ -79,7 +90,7 @@ hold.
 ## Permissions, and why each is asked
 
 - **SMS and MMS:** to read your texts into the index. Required for the app to be useful with your own messages.
-- **Contacts:** names for the numbers you text, and the people you link.
+- **Contacts:** names and birthdays for the numbers you text, and the people you link.
 - **Notification access** (optional): to see WhatsApp messages as they arrive. Nothing is sent back through it unless
   you tap Send on a reply, and then the reply goes through WhatsApp's own notification reply.
 - **Call log** (optional): to know when you talked instead of texting.
