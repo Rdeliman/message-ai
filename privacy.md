@@ -3,7 +3,7 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 7 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 8 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -24,11 +24,17 @@ ours, no analytics and no advertising.
   know when you talked instead of texting). Neither list is ever sent; a name, an approximate age or a call's time and
   length can go with a question, as described below.
 - **Voice messages turned into text** (Android's own on-device speech recognizer; the audio never leaves the phone).
+- **WhatsApp voice messages turned into text on the phone too**, if you allow it: Message AI reads them from the folder
+  where WhatsApp saves them, which you pick once in Android's own folder picker, and only a recording that matches a
+  message you received. The audio never leaves the phone. Stop (Settings › Messages and alerts › Voice messages) or
+  Delete everything gives the access back.
 - **Your chats with the AI and their answers**, what the app learned about how you write and about each person, the
   notes in About you, and the app's own usage log (tokens and estimated cost per question). What My Voice and About
   you hold goes along with what the AI writes for you while each is on, and what was noted about a person with what it
   writes about them, as described below; the texts they were learned from do not.
 - **Your API keys**, wrapped with a key that lives in the Android Keystore and cannot be exported.
+- **The home-screen widget** shows a count, or names and ages if you turn that on in Settings › Messages and alerts,
+  never the messages; nothing leaves the phone because of it.
 
 ## What leaves the phone, and when
 
@@ -75,6 +81,9 @@ and your About you go along. Otherwise:
   in the same panel. The app shows you the photos first and waits for your OK.
 - **Web search**, which asks you first by default (or runs on its own if you set it to Automatic): only the search
   words, never your texts, to the search company named in Settings.
+- **Help.** Your question, the guide page for the screen you are on, the guide pages that match your question (up to
+  two), the guide's list of pages and the last four questions and answers of the help chat go to the model you picked
+  for help answers; never your texts.
 - **OpenRouter's record of a call**: the call's own id, to read what OpenRouter charged for it. Never any text.
 - **Your key alone**: when the app lists a company's models, reads your OpenRouter key's limits, or reads OpenAI's
   costs with an admin key, only the key goes, never any text.
