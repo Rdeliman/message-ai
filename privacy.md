@@ -3,7 +3,7 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 8 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 10 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -70,6 +70,11 @@ and your About you go along. Otherwise:
   opens your mail app, addressed to the address at the bottom of this page, with the report filled in: when, which
   chat and answer, the model and company, what was wrong and the note you typed. Never the messages the answer
   read. You see the text before anything is sent, and you send it from your mail app.
+- **A chat you export.** Export chat (a chat's ⋮, or chats you choose in Chats) shows you the text first: the chat's
+  title, who it is about and the model, each question with its answer and its Sources lines, and, for a chat opened
+  from a message, that message. Share then opens your phone's share sheet, and the text goes only to the app you pick,
+  when you send or save it there. Never your keys, the app's instructions to the AI, the texts the AI read or what it
+  cost. The app keeps no copy.
 - **Learning.** About 1,000 texts you sent (never what others wrote) go once to the model, with names and numbers
   taken out, to learn how you write. About you learns from up to 300 of your own newest texts and WhatsApp messages
   the same way, only what you sent, to note lasting facts about you; again after 100 new ones, at most twice a year.
