@@ -33,8 +33,10 @@ ours, no analytics and no advertising.
   you hold goes along with what the AI writes for you while each is on, and what was noted about a person with what it
   writes about them, as described below; the texts they were learned from do not.
 - **Your API keys**, wrapped with a key that lives in the Android Keystore and cannot be exported.
-- **The home-screen widget** shows a count, or names and ages if you turn that on in Settings › Messages and alerts,
-  never the messages; nothing leaves the phone because of it.
+- **The Needs you widget** on the home screen shows a count, or names and ages if you turn that on in Settings ›
+  Messages and alerts, never the messages; nothing leaves the phone because of it.
+- **The Reminders widget** on the home screen shows how many reminders are still coming today and their times, or each
+  reminder's words if you turn that on in Settings › Messages and alerts; nothing leaves the phone because of it.
 
 ## What leaves the phone, and when
 
