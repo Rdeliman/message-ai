@@ -12,8 +12,9 @@ Message AI reads your texts on your phone to answer questions about them, sugges
 waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, or turn on
 "Prepare reply ideas as texts arrive", and then it goes only to the AI company you chose and gave your own key for.
 Your key alone also goes to that company, to check it and to read its models, limits and costs: never any text.
-Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no server of
-ours, no analytics and no advertising.
+Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no analytics
+company and no advertising. The one thing that can come to us is a beta tester's diagnostics log, only if they turn
+"Share diagnostics (beta)" on: what the app did, never what anyone wrote (below).
 
 ## What stays on the phone
 
@@ -94,8 +95,18 @@ and your About you go along. Otherwise:
 - **OpenRouter's record of a call**: the call's own id, to read what OpenRouter charged for it. Never any text.
 - **Your key alone**: when the app lists a company's models, reads your OpenRouter key's limits, or reads OpenAI's
   costs with an admin key, only the key goes, never any text.
+- **Diagnostics (beta).** Off unless you turn on "Share diagnostics (beta)" (Settings › Privacy and data, in beta
+  builds; the setup checklist asks once). Then about once an hour a log of what the app did, each event timed and
+  numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
+  which screens you use and for how long, each AI call's company, model, time, tokens, cost and whether it worked, how
+  the message index and background jobs went, rough counts ("100-999 texts", never exact), the app's version and build
+  number, your phone's make, model and Android version, your time zone's offset, how the app was opened (launcher,
+  alert, widget, share), and a random id made when you turn it on. Never your messages, AI questions or answers, names, numbers, email addresses, contacts, photos, keys or
+  anything you type. Turning it off stops sending and deletes the install id on this phone; what was already sent is
+  deleted from the inbox. Anything still waiting on the phone is deleted too.
 
 Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company. We never see it.
+Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it.
 
 ## Which companies, and what they do with it
 
@@ -124,7 +135,8 @@ hold.
 - Never sends a message without your confirm. A reply you choose goes out through your messaging app: through its own
   Reply on the notification once you tap Send, or opened there with the text filled in for you to send.
 - Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key.
-- Never runs analytics, advertising or tracking. There is no account and no sign-in.
+- Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
+  Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
 
 ## Permissions, and why each is asked
@@ -141,7 +153,9 @@ hold.
 - **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
   any time), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
   and their links, your tones, captured messages, reminders, the AI spending log, setup progress and every report are
-  removed and the app returns to setup; your first name stays).
+  removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
+  builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
+  above).
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
 - **Uninstalling the app** removes everything it kept.
 
