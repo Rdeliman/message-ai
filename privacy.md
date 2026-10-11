@@ -117,9 +117,12 @@ and your About you go along. Otherwise:
   long number goes as _), marked with the report's own random id; nothing else rides along with it, and never the
   question, the answer or the messages it read. Never your messages, AI questions or answers, names, numbers, email
   addresses, contacts, photos, keys, an error's words, or anything you type except the note you write in Report a
-  problem or in a report of an AI answer. Turning it off stops sending and
-  deletes the install id on this phone; what was already sent is deleted from the inbox. Anything still waiting on the
-  phone is deleted too.
+  problem or in a report of an AI answer. The inbox runs on Cloudflare. Besides what is listed here, it keeps its own
+  short record of each upload in Cloudflare's logs for 3 days: when it came, how long it took, how many events, and the
+  same fixed words and numbers listed here (never your note, and the random id only as a short code made from it). It
+  never keeps your internet address or where you are. Turning it off stops sending and deletes the install id on this
+  phone; what was already sent is deleted from the inbox, and those 3-day records simply expire. Anything still
+  waiting on the phone is deleted too.
 
 Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company. We never see it.
 Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it.
