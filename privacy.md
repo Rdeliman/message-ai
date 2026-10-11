@@ -20,9 +20,9 @@ ours, no analytics and no advertising.
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
   app sees arrive in WhatsApp. They are kept in an index in the app's private storage, excluded from cloud backup and
   device-to-device transfer.
-- **Your contacts** (names and birthdays for the numbers you text) and **your call history** (only if you allow it, to
-  know when you talked instead of texting). Neither list is ever sent; a name, an approximate age or a call's time and
-  length can go with a question, as described below.
+- **Your contacts** (names and birthdays for the numbers you text and the contacts you add to People) and **your call
+  history** (only if you allow it, to know when you talked instead of texting). Neither list is ever sent; a name, an
+  approximate age or a call's time and length can go with a question, as described below.
 - **Voice messages turned into text** (Android's own on-device speech recognizer; the audio never leaves the phone).
 - **WhatsApp voice messages turned into text on the phone too**, if you allow it: Message AI reads them from the folder
   where WhatsApp saves them, which you pick once in Android's own folder picker, and only a recording that matches a
@@ -130,7 +130,7 @@ hold.
 ## Permissions, and why each is asked
 
 - **SMS and MMS:** to read your texts into the index. Required for the app to be useful with your own messages.
-- **Contacts:** names and birthdays for the numbers you text, and the people you link.
+- **Contacts:** names and birthdays for the numbers you text and the contacts you add to People, and the people you link.
 - **Notification access** (optional): to see WhatsApp messages as they arrive. Nothing is sent back through it unless
   you tap Send on a reply, and then the reply goes through WhatsApp's own notification reply.
 - **Call log** (optional): to know when you talked instead of texting.
