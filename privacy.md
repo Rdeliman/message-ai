@@ -72,7 +72,10 @@ and your About you go along. Otherwise:
   phone under Settings › Privacy and data › Reports until you choose Email the developer or Email all reports. That
   opens your mail app, addressed to the address at the bottom of this page, with the report filled in: when, which
   chat and answer, the model and company, what was wrong and the note you typed. Never the messages the answer
-  read. You see the text before anything is sent, and you send it from your mail app.
+  read. You see the text before anything is sent, and you send it from your mail app. In a beta build with Share
+  diagnostics (beta) on, saving a report also sends it to Message AI's own private inbox, as Diagnostics (beta) below
+  says (never which chat or answer); the report sheet says so before you save, and the report still stays on the
+  phone to email.
 - **A chat you export.** Export chat (a chat's ⋮, or chats you choose in Chats) shows you the text first: the chat's
   title, who it is about and the model, each question with its answer and its Sources lines, and, for a chat opened
   from a message, that message. Share then opens your phone's share sheet, and the text goes only to the app you pick,
@@ -109,8 +112,12 @@ and your About you go along. Otherwise:
   or the system), whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report
   a problem, only while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong,
   your note (up to 280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random
-  report id. Never your messages, AI questions or answers, names, numbers, email addresses, contacts, photos, keys, an
-  error's words, or anything you type except the note you write in Report a problem. Turning it off stops sending and
+  report id. A report of an AI answer you save while this is on (Report this answer) goes too: what was wrong, which
+  kind of answer (a chat's, reply ideas or help), the company and model, how old the answer was and your few words (a
+  long number goes as _), marked with the report's own random id; nothing else rides along with it, and never the
+  question, the answer or the messages it read. Never your messages, AI questions or answers, names, numbers, email
+  addresses, contacts, photos, keys, an error's words, or anything you type except the note you write in Report a
+  problem or in a report of an AI answer. Turning it off stops sending and
   deletes the install id on this phone; what was already sent is deleted from the inbox. Anything still waiting on the
   phone is deleted too.
 
