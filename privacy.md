@@ -3,7 +3,7 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 10 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 11 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -99,11 +99,20 @@ and your About you go along. Otherwise:
   builds; the setup checklist asks once). Then about once an hour a log of what the app did, each event timed and
   numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
   which screens you use and for how long, each AI call's company, model, time, tokens, cost and whether it worked, how
-  the message index and background jobs went, rough counts ("100-999 texts", never exact), the app's version and build
-  number, your phone's make, model and Android version, your time zone's offset, how the app was opened (launcher,
-  alert, widget, share), and a random id made when you turn it on. Never your messages, AI questions or answers, names, numbers, email addresses, contacts, photos, keys or
-  anything you type. Turning it off stops sending and deletes the install id on this phone; what was already sent is
-  deleted from the inbox. Anything still waiting on the phone is deleted too.
+  the message index and background jobs went, each message alert it catches (which app, what kind, whether it found its
+  conversation, how long it took and whether it worked), each learn (what it learned, what started it, how long,
+  roughly how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's
+  version and build number, your phone's make, model and Android version, your time zone's offset, how the app was
+  opened (launcher, alert, widget, share), and a random id made when you turn it on. If the app crashes: the names of
+  the code that failed and where, never the error's words, which part of the app, whether it was on screen, how long it
+  had been running and whether memory was low. And why Android last closed the app (a freeze, a crash, low memory, you
+  or the system), whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report
+  a problem, only while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong,
+  your note (up to 280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random
+  report id. Never your messages, AI questions or answers, names, numbers, email addresses, contacts, photos, keys, an
+  error's words, or anything you type except the note you write in Report a problem. Turning it off stops sending and
+  deletes the install id on this phone; what was already sent is deleted from the inbox. Anything still waiting on the
+  phone is deleted too.
 
 Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company. We never see it.
 Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it.
@@ -155,7 +164,8 @@ hold.
   and their links, your tones, captured messages, reminders, the AI spending log, setup progress and every report are
   removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
   builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
-  above).
+  above) and Report a problem (also in the ? help sheet's ⋮; it sends nothing until you tap Send, and nothing at all
+  while Share diagnostics (beta) is off).
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
 - **Uninstalling the app** removes everything it kept.
 
