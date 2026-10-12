@@ -98,13 +98,16 @@ below). Otherwise:
   something fun for the Weekend crew group"), and only until you pause or delete it (Settings › Messages and alerts ›
   Scheduled messages). At each draft time the app asks your AI company (the model in Settings › AI) for a fresh draft:
   with it go your voice (while Use My Voice is on), that conversation's last 20 messages (in a WhatsApp chat, only what
-  its notifications brought in), the rule's words and the occasion (the event, who and when). A rule for a team's games
+  its notifications brought in), the rule's words and the occasion (the event, who and when). Just before each draft, a
+  rule saved with web search on looks its occasion up once: only the event's name and date (like "Hawks vs. the
+  Kestrels October 17 2026") go to that company's web search, never your texts, and through OpenRouter the app reads up
+  to two of the pages the search found, on the phone, and sends their text with the draft. A rule for a team's games
   also checks their schedule when you save it, then every Monday and on each game's morning: only the search words (like
   "Hawks schedule") go to that company's web search, never your texts. When that search runs through OpenRouter, the
   app reads up to three of the pages the search found, on the phone, and sends their text to that company with the
   search words. Tapping Save rule is your yes to that rule's own
-  checks; none run while Settings › AI › Web search is Off, and then you type the dates yourself. Each draft and each
-  check is an AI call you pay for, shown on the card before you save and in AI spending under Scheduled messages.
+  checks and lookups; none run while Settings › AI › Web search is Off, and then you type the dates yourself. Each draft,
+  lookup and check is an AI call you pay for, shown on the card before you save and in AI spending under Scheduled messages.
   Nothing is sent without your tap: a draft waits as a notification with Send, Change and Skip, goes out the way a reply
   does (Message AI's check, or your messaging app opened with the text filled in), and is never sent after its event
   starts.
