@@ -3,14 +3,15 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 11 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 12 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
 
 Message AI reads your texts on your phone to answer questions about them, suggest replies and remind you who is
-waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, or turn on
-"Prepare reply ideas as texts arrive", and then it goes only to the AI company you chose and gave your own key for.
+waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, turn on
+"Prepare reply ideas as texts arrive", or save a scheduled message, and then it goes only to the AI company you chose
+and gave your own key for.
 Your key alone also goes to that company, to check it and to read its models, limits and costs: never any text.
 Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no analytics
 company and no advertising. The one thing that can come to us is a beta tester's diagnostics log, only if they turn
@@ -41,11 +42,12 @@ company and no advertising. The one thing that can come to us is a beta tester's
 
 ## What leaves the phone, and when
 
-Nothing leaves until you ask the AI something, with one exception you turn on yourself: with "Prepare reply ideas as
+Nothing leaves until you ask the AI something, with two exceptions you set up yourself: with "Prepare reply ideas as
 texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
 company as it arrives, with up to your last 20 texts with that person (in a WhatsApp chat, up to five messages before
 it), so the alert can offer reply ideas; with "Full reply ideas" on as well, what the app has noted about that person
-and your About you go along. Otherwise:
+and your About you go along. And a scheduled message you save writes its drafts at their times (Scheduled messages,
+below). Otherwise:
 
 - **A question in Ask AI, Reply ideas, a draft, Catch me up.** The AI searches the on-device index and the messages it
   opens are sent to the AI company of that chat, including what others wrote to you. You see every lookup under the
@@ -92,6 +94,20 @@ and your About you go along. Otherwise:
   in the same panel. The app shows you the photos first and waits for your OK.
 - **Web search**, which asks you first by default (or runs on its own if you set it to Automatic): only the search
   words, never your texts, to the search company named in Settings.
+- **Scheduled messages.** Only for a rule you save yourself from a chat's card ("every time the Hawks play, write
+  something fun for the Weekend crew group"), and only until you pause or delete it (Settings › Messages and alerts ›
+  Scheduled messages). At each draft time the app asks your AI company (the model in Settings › AI) for a fresh draft:
+  with it go your voice (while Use My Voice is on), that conversation's last 20 messages (in a WhatsApp chat, only what
+  its notifications brought in), the rule's words and the occasion (the event, who and when). A rule for a team's games
+  also checks their schedule when you save it, then every Monday and on each game's morning: only the search words (like
+  "Hawks schedule") go to that company's web search, never your texts. When that search runs through OpenRouter, the
+  app reads up to three of the pages the search found, on the phone, and sends their text to that company with the
+  search words. Tapping Save rule is your yes to that rule's own
+  checks; none run while Settings › AI › Web search is Off, and then you type the dates yourself. Each draft and each
+  check is an AI call you pay for, shown on the card before you save and in AI spending under Scheduled messages.
+  Nothing is sent without your tap: a draft waits as a notification with Send, Change and Skip, goes out the way a reply
+  does (Message AI's check, or your messaging app opened with the text filled in), and is never sent after its event
+  starts.
 - **Help.** Your question, the guide page for the screen you are on, the guide pages that match your question (up to
   two), the guide's list of pages and the last four questions and answers of the help chat go to the model you picked
   for help answers; never your texts.
@@ -152,7 +168,8 @@ hold.
 ## What the app never does
 
 - Never sends a message without your confirm. A reply you choose goes out through your messaging app: through its own
-  Reply on the notification once you tap Send, or opened there with the text filled in for you to send.
+  Reply on the notification once you tap Send, or opened there with the text filled in for you to send. A scheduled
+  message's draft waits for your tap the same way, and is never sent after its event starts.
 - Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key.
 - Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
   Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
@@ -171,11 +188,13 @@ hold.
 
 - **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
   any time), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
-  and their links, your tones, captured messages, reminders, the AI spending log, setup progress and every report are
+  and their links, your tones, captured messages, reminders, scheduled messages, the AI spending log, setup progress and every report are
   removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
   builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
   above) and Report a problem (also in the ? help sheet's ⋮; it sends nothing until you tap Send, and nothing at all
   while Share diagnostics (beta) is off).
+- **Settings › Messages and alerts › Scheduled messages:** pause or delete any scheduled message (Delete with Undo);
+  a paused one writes no drafts and runs no checks.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
 - **Uninstalling the app** removes everything it kept.
 
