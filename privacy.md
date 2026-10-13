@@ -39,6 +39,11 @@ company and no advertising. The one thing that can come to us is a beta tester's
   Messages and alerts, never the messages; nothing leaves the phone because of it.
 - **The Reminders widget** on the home screen shows how many reminders are still coming today and their times, or each
   reminder's words if you turn that on in Settings › Messages and alerts; nothing leaves the phone because of it.
+- **Your side of chats in other apps**, only if you turn it on: the messages you send with the Message AI keyboard after
+  its card's Keep them, in the messaging apps whose switch is on (Settings › Messages and alerts › Keep the messages you
+  send), kept as your side of each chat in the app's private storage, never backed up (excluded from cloud backup and
+  device-to-device transfer). Never a password, a search box or a private box, and only when the keyboard is sure which
+  chat it is. Kept until you remove them or Delete everything: a tap on a line's From your keyboard tag removes it.
 
 ## What leaves the phone, and when
 
@@ -115,19 +120,24 @@ below). Otherwise:
   two), the guide's list of pages and the last four questions and answers of the help chat go to the model you picked
   for help answers; never your texts.
 - **The Message AI keyboard.** What you type stays on the phone. Only when you tap Reply ideas, Rewrite or Ask AI does
-  it go to your AI company: the box's text, and for Reply ideas and Ask AI the chat's captured messages (in a text
-  conversation, your last 20 texts with that person). Reply ideas
+  it go to your AI company: the box's text, and for Reply ideas and Ask AI the chat's captured messages and the lines you
+  kept from this keyboard (in a text conversation, your last 20 texts with that person). In the apps you turn on, the messages you send are kept on this
+  phone as your side of the chat; never a password, a search box or a private box. Reply ideas
   sends what is in the box with the chat its strip names, as the app's own Reply ideas sends it (in a WhatsApp chat
-  its captured messages; in a text conversation up to your last 20 texts with that person), and General ideas only
+  its captured messages and the lines you kept from this keyboard; in a text conversation up to your last 20 texts
+  with that person), and General ideas only
   what is in the box. Rewrite sends only what is in the box, once for each of your three reply tones. Ask AI sends the
-  question you type in its own panel with that chat's captured messages (in a text conversation, your last 20 texts
+  question you type in its own panel with that chat's captured messages and the lines you kept from this keyboard (in
+  a text conversation, your last 20 texts
   with that person), never the screen, and its answer stays in
   the panel until you tap Insert. Your first name, My Voice and About you go along as they do with reply ideas. The
-  first of these taps asks first, once for each AI company, naming the company and what goes; turning the keyboard on
-  is not that OK. In a
+  first of these taps asks first, once for each AI company, naming the company and what goes, and asks once more when
+  what it says changes (as when the lines you kept began to go too); turning the keyboard on is not that OK. In a
   password, PIN, card, number or phone box, a box that asks for no learning, or the keyboard's Private mode, nothing
-  goes at all. The keyboard keeps nothing you type, never reads the clipboard or the screen, and needs no network to
-  type.
+  goes at all, and nothing is kept. The keyboard keeps nothing else you type (only the messages you send, after Keep
+  them), never reads the clipboard or the screen, and needs no network to type. A line kept from the keyboard is your
+  side of its chat: Reply ideas, Ask AI, Catch me up and My Voice read it with that chat's messages, and it goes to your
+  AI company only with them, on your tap, as your texts do.
 - **OpenRouter's record of a call**: the call's own id, to read what OpenRouter charged for it. Never any text.
 - **Your key alone**: when the app lists a company's models, reads your OpenRouter key's limits, or reads OpenAI's
   costs with an admin key, only the key goes, never any text.
@@ -210,7 +220,8 @@ hold.
 
 - **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
   any time), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
-  and their links, your tones, captured messages, reminders, scheduled messages, the AI spending log, setup progress and every report are
+  and their links, your tones, captured messages, your lines kept from the keyboard, reminders, scheduled messages, the
+  AI spending log, setup progress and every report are
   removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
   builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
   above) and Report a problem (also in the ? help sheet's ⋮; it sends nothing until you tap Send, and nothing at all
@@ -218,8 +229,11 @@ hold.
 - **Settings › Messages and alerts › Scheduled messages:** pause or delete any scheduled message (Delete with Undo);
   a paused one writes no drafts and runs no checks.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
-- **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; its strip's ⋮ has Private mode, and
-  Android's keyboard settings turn it off. Delete everything asks its question about your AI company again.
+- **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; Keep the messages you send (its own
+  card, Not now or Keep them) and, once on, a switch for each messaging app; its strip's ⋮ has Private mode, and
+  Android's keyboard settings turn it off. A line From your keyboard goes with a tap on its tag (Remove, with Undo).
+  Delete everything removes every kept line and asks the keyboard's question about your AI company and its Keep card
+  again.
 - **Uninstalling the app** removes everything it kept.
 
 ## Children
