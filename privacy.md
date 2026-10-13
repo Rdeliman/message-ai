@@ -3,7 +3,7 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 12 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 13 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -114,6 +114,20 @@ below). Otherwise:
 - **Help.** Your question, the guide page for the screen you are on, the guide pages that match your question (up to
   two), the guide's list of pages and the last four questions and answers of the help chat go to the model you picked
   for help answers; never your texts.
+- **The Message AI keyboard.** What you type stays on the phone. Only when you tap Reply ideas, Rewrite or Ask AI does
+  it go to your AI company: the box's text, and for Reply ideas and Ask AI the chat's captured messages (in a text
+  conversation, your last 20 texts with that person). Reply ideas
+  sends what is in the box with the chat its strip names, as the app's own Reply ideas sends it (in a WhatsApp chat
+  its captured messages; in a text conversation up to your last 20 texts with that person), and General ideas only
+  what is in the box. Rewrite sends only what is in the box, once for each of your three reply tones. Ask AI sends the
+  question you type in its own panel with that chat's captured messages (in a text conversation, your last 20 texts
+  with that person), never the screen, and its answer stays in
+  the panel until you tap Insert. Your first name, My Voice and About you go along as they do with reply ideas. The
+  first of these taps asks first, once for each AI company, naming the company and what goes; turning the keyboard on
+  is not that OK. In a
+  password, PIN, card, number or phone box, a box that asks for no learning, or the keyboard's Private mode, nothing
+  goes at all. The keyboard keeps nothing you type, never reads the clipboard or the screen, and needs no network to
+  type.
 - **OpenRouter's record of a call**: the call's own id, to read what OpenRouter charged for it. Never any text.
 - **Your key alone**: when the app lists a company's models, reads your OpenRouter key's limits, or reads OpenAI's
   costs with an admin key, only the key goes, never any text.
@@ -177,6 +191,8 @@ hold.
 - Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
   Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
+- The Message AI keyboard never logs what you type, never reads the clipboard or the screen, and never does a box's
+  Send by itself: putting an idea or an answer in the box is not sending it.
 
 ## Permissions, and why each is asked
 
@@ -186,6 +202,9 @@ hold.
   you tap Send on a reply, and then the reply goes through WhatsApp's own notification reply.
 - **Call log** (optional): to know when you talked instead of texting.
 - **Notifications:** for the app's own reminders and alerts.
+- **The Message AI keyboard** (optional): no permission of its own. Only Android's own keyboard list turns it on
+  (Settings › Messages and alerts › Keyboard opens it), after Android's warning that a keyboard it didn't make may
+  collect what you type. It starts only after the phone's first unlock.
 
 ## Your controls
 
@@ -199,6 +218,8 @@ hold.
 - **Settings › Messages and alerts › Scheduled messages:** pause or delete any scheduled message (Delete with Undo);
   a paused one writes no drafts and runs no checks.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
+- **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; its strip's ⋮ has Private mode, and
+  Android's keyboard settings turn it off. Delete everything asks its question about your AI company again.
 - **Uninstalling the app** removes everything it kept.
 
 ## Children
