@@ -3,7 +3,7 @@ title: Message AI privacy policy
 ---
 
 
-Last updated 13 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 14 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -48,6 +48,19 @@ problem or Send feedback (below).
   while you are still in that box, the same words at the same minute in a later export or alert of that app, or Home's
   card); nothing reads it until it is in a chat, and it goes after 7 days if it never is. Kept until you remove them or
   Delete everything: a tap on a line's From your keyboard tag removes it, and Home's card removes a waiting one.
+- **The keyboard's words and emoji.** The Message AI keyboard's word suggestions, the words it learns and your recent
+  emoji stay on the phone: the suggestions come from an English word list inside the app, and what it learns (a word you
+  kept as you typed it, or put back after it fixed your spelling) and the emoji you picked are kept in its own small file,
+  never backed up and never from a private box, so nothing of them leaves the phone.
+
+## What leaves the phone, and when
+
+Nothing leaves until you ask the AI something, with two exceptions you set up yourself: with "Prepare reply ideas as
+texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
+company as it arrives, with up to your last 20 texts with that person (in a WhatsApp chat, up to five messages before
+it), so the alert can offer reply ideas; with "Full reply ideas" on as well, what the app has noted about that person
+and your About you go along. And a scheduled message you save writes its drafts at their times (Scheduled messages,
+below). Otherwise:
 
 ## What leaves the phone, and when
 
@@ -246,7 +259,8 @@ hold.
 
 - **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
   any time), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
-  and their links, your tones, captured messages, your lines kept from the keyboard, reminders, scheduled messages, the
+  and their links, your tones, captured messages, your lines kept from the keyboard, the words the keyboard learned and
+  its recent emoji, reminders, scheduled messages, the
   AI spending log, setup progress and every report are
   removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
   builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
@@ -257,7 +271,8 @@ hold.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
 - **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; Keep the messages you send (its own
   card, Not now or Keep them) and, once on, a switch for each messaging app; its strip's ⋮ has Private mode, and
-  Android's keyboard settings turn it off. A line From your keyboard goes with a tap on its tag (Remove, with Undo).
+  Android's keyboard settings turn it off. A press and hold on a word the keyboard learned, in its row of words, forgets
+  it (with Undo). A line From your keyboard goes with a tap on its tag (Remove, with Undo).
   Home's card lists the lines that need a chat: one tap files them in a chat, Remove (with Undo) takes one out, and Not
   now hides the card until the next one; they go by themselves after 7 days with no chat.
   Delete everything removes every kept line, those waiting for a chat too, and asks the keyboard's question about your AI company, its Keep card and
