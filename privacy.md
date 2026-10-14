@@ -51,7 +51,9 @@ problem or Send feedback (below).
 - **The keyboard's words and emoji.** The Message AI keyboard's word suggestions, the words it learns and your recent
   emoji stay on the phone: the suggestions come from an English word list inside the app, and what it learns (a word you
   kept as you typed it, or put back after it fixed your spelling) and the emoji you picked are kept in its own small file,
-  never backed up and never from a private box, so nothing of them leaves the phone.
+  never backed up and never from a private box, so nothing of them leaves the phone. The next word it offers after a
+  space comes from your own messages already on the phone (your side of each chat, never theirs), counted on the phone
+  into its own small files; nothing of them leaves it.
 
 ## What leaves the phone, and when
 
