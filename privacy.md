@@ -175,27 +175,36 @@ below). Otherwise:
   numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
   which screens you use and for how long, each AI call's company, model, time, tokens, cost and whether it worked, how
   the message index and background jobs went, each message alert it catches (which app, what kind, whether it found its
-  conversation, how long it took and whether it worked), each learn (what it learned, what started it, how long, roughly
-  how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's version and
-  build number, your phone's make, model and Android version, your time zone's offset, how the app was opened (launcher,
-  alert, widget, share), and a random id made when you turn it on. If the app crashes: the names of the code that failed
-  and where, never the error's words, which part of the app, whether it was on screen, how long it had been running and
-  whether memory was low. And why Android last closed the app (a freeze, a crash, low memory, you or the system),
-  whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report a problem, only
-  while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong, your note (up to
-  280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random report id. A
-  report of an AI answer you save while this is on (Report this answer) goes too: what was wrong, which kind of answer
-  (a chat's, reply ideas or help), the company and model, how old the answer was and your few words (a long number goes
-  as _), marked with the report's own random id; nothing else rides along with it, and never the question, the answer or
-  the messages it read. Send feedback, only while this is on, sends what you write when you tap Send: your note (up to
-  280 characters, shown to you first), the screen you were on and the last 50 events not sent yet, marked with one
-  random id, and a screenshot only if you pick one from your gallery, each time. A screenshot shows whatever was on your
-  screen, names and messages included: the phone re-saves it without its location or camera details, only the developer
-  can open it, and it is deleted after 30 days. Your note, the screen, the app's build, your phone's model and Android
-  version and counts of those events (never their contents) also become an issue in the beta's private GitHub
-  repository, where the developer answers and the other beta testers can read it; Report a problem and Report this
-  answer are filed there too, without your note. Issues are deleted after 90 days, or as soon as you turn this off. The
-  developer reads the inbox and those issues with the help of Claude (Anthropic), never a screenshot. Never your
+- **Messages you import yourself:** a WhatsApp chat you export and share to the app, and an iMessage history from an old
+  iPhone (a file a converter on your own computer makes from the iPhone's backup, which you copy to the phone and share
+  to the app). The file is read on the phone and its copy is deleted once read (an iPhone history's when its import
+  finishes); the messages are kept like the others. Photos and videos are not in the file. Nothing is sent when you
+  import; the messages go to your AI company only as any messages do, below. The converter runs on your computer only
+  and sends nothing anywhere.
+  conversation, how long it took and whether it worked; for an alert that had not found it, a random id made for that
+  alert, so a later check can say it found it and how long after), each learn (what it learned, what started it, how
+  long, roughly how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's
+  version and build number, your phone's make, model and Android version, your time zone's offset, how the app was
+  opened (launcher, alert, widget, share), and a random id made when you turn it on. If the app crashes: the names of
+  the code that failed and where, never the error's words, which part of the app, whether it was on screen, how long it
+  had been running and whether memory was low. And why Android last closed the app (a freeze, a crash, low memory, you
+  or the system), whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report a
+  problem, only while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong, your
+  note (up to 280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random report
+  id. A report of an AI answer you save while this is on (Report this answer) goes too: what was wrong, which kind of
+  answer (a chat's, reply ideas or help), the company and model, how old the answer was and your few words (a long
+  number goes as _), marked with the report's own random id; nothing else rides along with it, and never the question,
+  the answer or the messages it read. Send feedback, only while this is on, sends what you write when you tap Send: your
+  note (up to 280 characters, shown to you first), the screen you were on and the last 50 events not sent yet, marked
+  with one random id, and a screenshot only if you pick one from your gallery, each time. A screenshot shows whatever
+  was on your screen, names and messages included: the phone re-saves it without its location or camera details, only
+  the developer can open it, and it is deleted after 30 days. Your note, the screen, the app's build, your phone's model
+  and Android version and counts of those events (never their contents) also become an issue in the beta's private
+  GitHub repository, where the developer answers and the other beta testers can read it; Report a problem and Report
+  this answer are filed there too, without your note. Issues are deleted after 90 days, or as soon as you turn this off.
+  The developer reads the inbox and those issues with the help of Claude (Anthropic), never a screenshot. Never your
+- **Settings › Messages and alerts › Clear notification history** removes the captured messages and the imported ones
+  (a WhatsApp export's, an iMessage history's). An iMessage chat's ⋮ has Remove all iMessage chats.
   messages, AI questions or answers, names, numbers, email addresses, contacts, photos (except a screenshot you add to
   Send feedback), keys, an error's words, or anything you type except the note you write in Report a problem, in Send
   feedback or in a report of an AI answer. The inbox runs on Cloudflare. Besides what is listed here, it keeps its own
