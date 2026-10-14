@@ -90,7 +90,8 @@ below). Otherwise:
   alert's ideas when Full reply ideas is on); the AI is told never to put them in a web search.
 - **About them.** Who a person is to you, your note about them and their related people, as you set them in People,
   go with questions, reply ideas, tone changes and Help me say it about them, and, while Use My Voice is on, how you
-  text them. Their About (your notes and what the app learned from your texts with them) goes with reply ideas on
+  text them. Who they are to you goes with a scheduled message's drafts to them too, and the AI is told to address
+  them only as your own texts to them do. Their About (your notes and what the app learned from your texts with them) goes with reply ideas on
   screen and Help me say it, and with an alert's ideas only when Full reply ideas is on.
 - **A report you email.** If you report an AI answer (press and hold it, Report this answer), the report stays on the
   phone under Settings › Privacy and data › Reports until you choose Email the developer or Email all reports. That
@@ -120,7 +121,8 @@ below). Otherwise:
   something fun for the Weekend crew group"), and only until you pause or delete it (Settings › Messages and alerts ›
   Scheduled messages). At each draft time the app asks your AI company (the model in Settings › AI) for a fresh draft:
   with it go your voice (while Use My Voice is on), that conversation's last 20 messages (in a WhatsApp chat, only what
-  its notifications brought in), the rule's words and the occasion (the event, who and when). Just before each draft, a
+  its notifications brought in), who the person is to you (for a draft to one person), the rule's words and the
+  occasion (the event, who and when). Just before each draft, a
   rule saved with web search on looks its occasion up once: only the event's name and date (like "Hawks vs. the
   Kestrels October 17 2026") go to that company's web search, never your texts, and through OpenRouter the app reads up
   to two of the pages the search found, on the phone, and sends their text with the draft. A rule for a team's games
