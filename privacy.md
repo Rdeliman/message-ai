@@ -42,8 +42,11 @@ company and no advertising. The one thing that can come to us is a beta tester's
 - **Your side of chats in other apps**, only if you turn it on: the messages you send with the Message AI keyboard after
   its card's Keep them, in the messaging apps whose switch is on (Settings › Messages and alerts › Keep the messages you
   send), kept as your side of each chat in the app's private storage, never backed up (excluded from cloud backup and
-  device-to-device transfer). Never a password, a search box or a private box, and only when the keyboard is sure which
-  chat it is. Kept until you remove them or Delete everything: a tap on a line's From your keyboard tag removes it.
+  device-to-device transfer). Never a password, a search box or a private box. A message sent while the keyboard isn’t
+  sure of the chat is kept apart, in no chat, waiting for its chat (your pick on the keyboard, its chat's alert opened
+  while you are still in that box, the same words at the same minute in a later export or alert of that app, or Home's
+  card); nothing reads it until it is in a chat, and it goes after 7 days if it never is. Kept until you remove them or
+  Delete everything: a tap on a line's From your keyboard tag removes it, and Home's card removes a waiting one.
 
 ## What leaves the phone, and when
 
@@ -122,7 +125,9 @@ below). Otherwise:
 - **The Message AI keyboard.** What you type stays on the phone. Only when you tap Reply ideas, Rewrite or Ask AI does
   it go to your AI company: the box's text, and for Reply ideas and Ask AI the chat's captured messages and the lines you
   kept from this keyboard (in a text conversation, your last 20 texts with that person). In the apps you turn on, the messages you send are kept on this
-  phone as your side of the chat; never a password, a search box or a private box. Voice typing runs on the phone; the audio never leaves it. Reply ideas
+  phone as your side of the chat; never a password, a search box or a private box. A message sent while the keyboard
+  isn’t sure of the chat waits on the phone for its chat, read by nothing until it is in one, and goes after 7 days if it
+  never is. Voice typing runs on the phone; the audio never leaves it. Reply ideas
   sends what is in the box with the chat its strip names, as the app's own Reply ideas sends it (in a WhatsApp chat
   its captured messages and the lines you kept from this keyboard; in a text conversation up to your last 20 texts
   with that person), and General ideas only
@@ -137,7 +142,9 @@ below). Otherwise:
   goes at all, and nothing is kept. The keyboard keeps nothing else you type (only the messages you send, after Keep
   them), never reads the clipboard or the screen, and needs no network to type. A line kept from the keyboard is your
   side of its chat: Reply ideas, Ask AI, Catch me up and My Voice read it with that chat's messages, and it goes to your
-  AI company only with them, on your tap, as your texts do. Voice typing (the keyboard's mic) uses only your phone's own
+  AI company only with them, on your tap, as your texts do. A line that still needs a chat is read by none of them, nor
+  by About you, Home's insights or any AI call, until it is in a chat; asking which chat (the keyboard's "Which chat?")
+  sends nothing. Voice typing (the keyboard's mic) uses only your phone's own
   on-device speech recognizer, never an online one: the words you say go into the box as if you typed them, nothing is
   recorded or kept, and nothing goes anywhere; it needs no network, and where the phone has no on-device recognizer the
   mic is greyed. The words it typed go to your AI company only as typed text does, when you tap Reply ideas, Rewrite or
@@ -240,7 +247,9 @@ hold.
 - **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; Keep the messages you send (its own
   card, Not now or Keep them) and, once on, a switch for each messaging app; its strip's ⋮ has Private mode, and
   Android's keyboard settings turn it off. A line From your keyboard goes with a tap on its tag (Remove, with Undo).
-  Delete everything removes every kept line and asks the keyboard's question about your AI company, its Keep card and
+  Home's card lists the lines that need a chat: one tap files them in a chat, Remove (with Undo) takes one out, and Not
+  now hides the card until the next one; they go by themselves after 7 days with no chat.
+  Delete everything removes every kept line, those waiting for a chat too, and asks the keyboard's question about your AI company, its Keep card and
   its voice card again (the microphone itself is Android's to turn off: Settings › Apps › Message AI › Permissions).
 - **Uninstalling the app** removes everything it kept.
 
