@@ -15,7 +15,8 @@ and gave your own key for.
 Your key alone also goes to that company, to check it and to read its models, limits and costs: never any text.
 Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no analytics
 company and no advertising. The one thing that can come to us is a beta tester's diagnostics log, only if they turn
-"Share diagnostics (beta)" on: what the app did, never what anyone wrote (below).
+"Share diagnostics (beta)" on: what the app did, never what anyone wrote, and what they choose to send with Report a
+problem or Send feedback (below).
 
 ## What stays on the phone
 
@@ -157,29 +158,39 @@ below). Otherwise:
   numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
   which screens you use and for how long, each AI call's company, model, time, tokens, cost and whether it worked, how
   the message index and background jobs went, each message alert it catches (which app, what kind, whether it found its
-  conversation, how long it took and whether it worked), each learn (what it learned, what started it, how long,
-  roughly how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's
-  version and build number, your phone's make, model and Android version, your time zone's offset, how the app was
-  opened (launcher, alert, widget, share), and a random id made when you turn it on. If the app crashes: the names of
-  the code that failed and where, never the error's words, which part of the app, whether it was on screen, how long it
-  had been running and whether memory was low. And why Android last closed the app (a freeze, a crash, low memory, you
-  or the system), whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report
-  a problem, only while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong,
-  your note (up to 280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random
-  report id. A report of an AI answer you save while this is on (Report this answer) goes too: what was wrong, which
-  kind of answer (a chat's, reply ideas or help), the company and model, how old the answer was and your few words (a
-  long number goes as _), marked with the report's own random id; nothing else rides along with it, and never the
-  question, the answer or the messages it read. Never your messages, AI questions or answers, names, numbers, email
-  addresses, contacts, photos, keys, an error's words, or anything you type except the note you write in Report a
-  problem or in a report of an AI answer. The inbox runs on Cloudflare. Besides what is listed here, it keeps its own
+  conversation, how long it took and whether it worked), each learn (what it learned, what started it, how long, roughly
+  how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's version and
+  build number, your phone's make, model and Android version, your time zone's offset, how the app was opened (launcher,
+  alert, widget, share), and a random id made when you turn it on. If the app crashes: the names of the code that failed
+  and where, never the error's words, which part of the app, whether it was on screen, how long it had been running and
+  whether memory was low. And why Android last closed the app (a freeze, a crash, low memory, you or the system),
+  whether it was on screen, how much memory it used, and for a freeze where the code was stuck. Report a problem, only
+  while this is on, sends what you choose when you tap Send: the screen you were on, what went wrong, your note (up to
+  280 characters, shown to you first) and the last 50 events not sent yet, all marked with one random report id. A
+  report of an AI answer you save while this is on (Report this answer) goes too: what was wrong, which kind of answer
+  (a chat's, reply ideas or help), the company and model, how old the answer was and your few words (a long number goes
+  as _), marked with the report's own random id; nothing else rides along with it, and never the question, the answer or
+  the messages it read. Send feedback, only while this is on, sends what you write when you tap Send: your note (up to
+  280 characters, shown to you first), the screen you were on and the last 50 events not sent yet, marked with one
+  random id, and a screenshot only if you pick one from your gallery, each time. A screenshot shows whatever was on your
+  screen, names and messages included: the phone re-saves it without its location or camera details, only the developer
+  can open it, and it is deleted after 30 days. Your note, the screen, the app's build, your phone's model and Android
+  version and counts of those events (never their contents) also become an issue in the beta's private GitHub
+  repository, where the developer answers and the other beta testers can read it; Report a problem and Report this
+  answer are filed there too, without your note. Issues are deleted after 90 days, or as soon as you turn this off. The
+  developer reads the inbox and those issues with the help of Claude (Anthropic), never a screenshot. Never your
+  messages, AI questions or answers, names, numbers, email addresses, contacts, photos (except a screenshot you add to
+  Send feedback), keys, an error's words, or anything you type except the note you write in Report a problem, in Send
+  feedback or in a report of an AI answer. The inbox runs on Cloudflare. Besides what is listed here, it keeps its own
   short record of each upload in Cloudflare's logs for 3 days: when it came, how long it took, how many events, and the
   same fixed words and numbers listed here (never your note, and the random id only as a short code made from it). It
   never keeps your internet address or where you are. Turning it off stops sending and deletes the install id on this
-  phone; what was already sent is deleted from the inbox, and those 3-day records simply expire. Anything still
-  waiting on the phone is deleted too.
+  phone; what was already sent is deleted from the inbox, with any screenshots, and your notes come off the beta's
+  GitHub page; those 3-day records simply expire. Anything still waiting on the phone is deleted too.
 
 Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company. We never see it.
-Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it.
+Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it, except whatever a
+screenshot you add to Send feedback shows.
 
 ## Which companies, and what they do with it
 
@@ -239,8 +250,8 @@ hold.
   AI spending log, setup progress and every report are
   removed and the app returns to setup; your first name stays; Share diagnostics (beta) goes back to off), and in beta
   builds Share diagnostics (beta) (off unless you turn it on; what turning it off deletes is under Diagnostics (beta)
-  above) and Report a problem (also in the ? help sheet's ⋮; it sends nothing until you tap Send, and nothing at all
-  while Share diagnostics (beta) is off).
+  above) and Report a problem and Send feedback (both also in the ? help sheet's ⋮; they send nothing until you tap Send,
+  and nothing at all while Share diagnostics (beta) is off).
 - **Settings › Messages and alerts › Scheduled messages:** pause or delete any scheduled message (Delete with Undo);
   a paused one writes no drafts and runs no checks.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
