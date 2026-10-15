@@ -2,7 +2,6 @@
 title: Message AI privacy policy
 ---
 
-
 Last updated 14 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
@@ -23,6 +22,12 @@ problem or Send feedback (below).
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
   app sees arrive in WhatsApp. They are kept in an index in the app's private storage, excluded from cloud backup and
   device-to-device transfer.
+- **Messages you import yourself:** a WhatsApp chat you export and share to the app, and an iMessage history from an old
+  iPhone (a file a converter on your own computer makes from the iPhone's backup, which you copy to the phone and share
+  to the app). The file is read on the phone and its copy is deleted once read (an iPhone history's when its import
+  finishes); the messages are kept like the others. Photos and videos are not in the file. Nothing is sent when you
+  import; the messages go to your AI company only as any messages do, below. The converter runs on your computer only
+  and sends nothing anywhere.
 - **Your contacts** (names and birthdays for the numbers you text and the contacts you add to People) and **your call
   history** (only if you allow it, to know when you talked instead of texting). Neither list is ever sent; a name, an
   approximate age or a call's time and length can go with a question, as described below.
@@ -54,15 +59,6 @@ problem or Send feedback (below).
   never backed up and never from a private box, so nothing of them leaves the phone. The next word it offers after a
   space comes from your own messages already on the phone (your side of each chat, never theirs), counted on the phone
   into its own small files; nothing of them leaves it.
-
-## What leaves the phone, and when
-
-Nothing leaves until you ask the AI something, with two exceptions you set up yourself: with "Prepare reply ideas as
-texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
-company as it arrives, with up to your last 20 texts with that person (in a WhatsApp chat, up to five messages before
-it), so the alert can offer reply ideas; with "Full reply ideas" on as well, what the app has noted about that person
-and your About you go along. And a scheduled message you save writes its drafts at their times (Scheduled messages,
-below). Otherwise:
 
 ## What leaves the phone, and when
 
@@ -182,12 +178,6 @@ noted about that person and your About you go along. And a scheduled message you
   numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
   which screens you use and for how long, each AI call's company, model, time, tokens, cost and whether it worked, how
   the message index and background jobs went, each message alert it catches (which app, what kind, whether it found its
-- **Messages you import yourself:** a WhatsApp chat you export and share to the app, and an iMessage history from an old
-  iPhone (a file a converter on your own computer makes from the iPhone's backup, which you copy to the phone and share
-  to the app). The file is read on the phone and its copy is deleted once read (an iPhone history's when its import
-  finishes); the messages are kept like the others. Photos and videos are not in the file. Nothing is sent when you
-  import; the messages go to your AI company only as any messages do, below. The converter runs on your computer only
-  and sends nothing anywhere.
   conversation, how long it took and whether it worked; for an alert that had not found it, a random id made for that
   alert, so a later check can say it found it and how long after), each learn (what it learned, what started it, how
   long, roughly how many texts, its cost and whether it worked), rough counts ("100-999 texts", never exact), the app's
@@ -210,8 +200,6 @@ noted about that person and your About you go along. And a scheduled message you
   GitHub repository, where the developer answers and the other beta testers can read it; Report a problem and Report
   this answer are filed there too, without your note. Issues are deleted after 90 days, or as soon as you turn this off.
   The developer reads the inbox and those issues with the help of Claude (Anthropic), never a screenshot. Never your
-- **Settings › Messages and alerts › Clear notification history** removes the captured messages and the imported ones
-  (a WhatsApp export's, an iMessage history's). An iMessage chat's ⋮ has Remove all iMessage chats.
   messages, AI questions or answers, names, numbers, email addresses, contacts, photos (except a screenshot you add to
   Send feedback), keys, an error's words, or anything you type except the note you write in Report a problem, in Send
   feedback or in a report of an AI answer. The inbox runs on Cloudflare. Besides what is listed here, it keeps its own
@@ -297,6 +285,8 @@ hold.
   now hides the card until the next one; they go by themselves after 7 days with no chat.
   Delete everything removes every kept line, those waiting for a chat too, and asks the keyboard's question about your AI company, its Keep card and
   its voice card again (the microphone itself is Android's to turn off: Settings › Apps › Message AI › Permissions).
+- **Settings › Messages and alerts › Clear notification history** removes the captured messages and the imported ones
+  (a WhatsApp export's, an iMessage history's). An iMessage chat's ⋮ has Remove all iMessage chats.
 - **Uninstalling the app** removes everything it kept.
 
 ## Children
