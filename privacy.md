@@ -69,9 +69,10 @@ below). Otherwise:
 Nothing leaves until you ask the AI something, with two exceptions you set up yourself: with "Prepare reply ideas as
 texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
 company as it arrives, with up to your last 20 texts with that person (in a WhatsApp chat, up to five messages before
-it), so the alert can offer reply ideas; with "Full reply ideas" on as well, what the app has noted about that person
-and your About you go along. And a scheduled message you save writes its drafts at their times (Scheduled messages,
-below). Otherwise:
+it), so the alert can offer reply ideas, and whose birthday it is today or yesterday among you and the people in that
+chat, worked out on the phone (never a date; see Names and ages); with "Full reply ideas" on as well, what the app has
+noted about that person and your About you go along. And a scheduled message you save writes its drafts at their times
+(Scheduled messages, below). Otherwise:
 
 - **A question in Ask AI, Reply ideas, a draft, Catch me up.** The AI searches the on-device index and the messages it
   opens are sent to the AI company of that chat, including what others wrote to you. You see every lookup under the
@@ -81,7 +82,10 @@ below). Otherwise:
 - **Names and ages.** Each message the AI reads goes with its sender's name as your contacts have it, or the number
   when there is no contact. When a person's birthday is known (typed by you, or from your contacts), questions and reply
   ideas about them say roughly how old they are ("about 12", never the date), and reply ideas on the day say it is their
-  birthday. Your contact list itself is never sent.
+  birthday. In a chat the AI reads (reply ideas, an alert's too, Catch me up, Ask AI about a conversation), the phone
+  works out whose birthday it is today or yesterday among you and the people in it, so a "happy birthday" there is never
+  taken as yours unless it is: in a group, only whose birthday it is today or yesterday, worked out on the phone, and
+  the They are you set for the people in it; never a date. Your contact list itself is never sent.
 - **Calls.** Catch me up sends the calls with that person in the stretch it covers; Reply ideas, a call after their last
   message; a question that reads a WhatsApp chat, the calls in it: when each was, how long it lasted, which way it
   went and whether it was missed. They come from your call history, if you allowed it, and from WhatsApp's call
@@ -89,8 +93,11 @@ below). Otherwise:
 - **My Voice.** While Use My Voice is on, what the app learned about how you write (a short description and a few
   example lines of yours) goes along with reply ideas, drafts and tone changes; the texts it learned from do not.
 - **About you.** While Use About you is on, its notes go with reply ideas, drafts, Ask AI and Catch me up (and with an
-  alert's ideas when Full reply ideas is on); the AI is told never to put them in a web search.
-- **About them.** Who a person is to you, your note about them and their related people, as you set them in People,
+  alert's ideas when Full reply ideas is on); the AI is told never to put them in a web search. I am and My birthday, at
+  the top of About you, go the same way: I am as "the user is a man" or "a woman" (Something else: your name or "they"),
+  and My birthday only as "it's the user's birthday today" on the day, with your age if you gave one, never the date.
+- **About them.** Who a person is to you, your note about them, their They are ("Dana is a woman: she/her", only when
+  you set it, never guessed) and their related people, as you set them in People,
   go with questions, reply ideas, tone changes and Help me say it about them, and, while Use My Voice is on, how you
   text them. Who they are to you goes with a scheduled message's drafts to them too, and the AI is told to address
   them only as your own texts to them do. Their About (your notes and what the app learned from your texts with them) goes with reply ideas on
