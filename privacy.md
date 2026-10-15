@@ -2,7 +2,7 @@
 title: Message AI privacy policy
 ---
 
-Last updated 14 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 15 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -78,24 +78,26 @@ noted about that person and your About you go along. And a scheduled message you
 - **Names and ages.** Each message the AI reads goes with its sender's name as your contacts have it, or the number
   when there is no contact. When a person's birthday is known (typed by you, or from your contacts), questions and reply
   ideas about them say roughly how old they are ("about 12", never the date), and reply ideas on the day say it is their
-  birthday. In a chat the AI reads (reply ideas, an alert's too, Catch me up, Ask AI about a conversation), the phone
-  works out whose birthday it is today or yesterday among you and the people in it, so a "happy birthday" there is never
-  taken as yours unless it is: in a group, only whose birthday it is today or yesterday, worked out on the phone, and
-  the They are you set for the people in it; never a date. Your contact list itself is never sent.
+  birthday. In a chat the AI reads (reply ideas, an alert's too, Catch me up, Ask AI about a conversation, the
+  keyboard's Ask AI in a chat it is sure of), the phone works out whose birthday it is today or yesterday among you and
+  the people in it, so a "happy birthday" there is never taken as yours unless it is: in a group, only whose birthday it
+  is today or yesterday, worked out on the phone, and the They are you set for the people in it; never a date. A tone
+  change in a group (the app's, or the keyboard's Rewrite) gets only that They are, never a birthday. Your contact list
+  itself is never sent.
 - **Calls.** Catch me up sends the calls with that person in the stretch it covers; Reply ideas, a call after their last
   message; a question that reads a WhatsApp chat, the calls in it: when each was, how long it lasted, which way it
   went and whether it was missed. They come from your call history, if you allowed it, and from WhatsApp's call
   notifications. Never the number, never any audio, never the rest of your call history.
 - **My Voice.** While Use My Voice is on, what the app learned about how you write (a short description and a few
   example lines of yours) goes along with reply ideas, drafts and tone changes; the texts it learned from do not.
-- **About you.** While Use About you is on, its notes go with reply ideas, drafts, Ask AI and Catch me up (and with an
-  alert's ideas when Full reply ideas is on); the AI is told never to put them in a web search. I am and My birthday, at
+- **About you.** While Use About you is on, its notes go with reply ideas, drafts, tone changes, Ask AI and Catch me up,
+  and with the keyboard's Reply ideas, Rewrite and Ask AI (and with an alert's ideas when Full reply ideas is on); the AI is told never to put them in a web search. I am and My birthday, at
   the top of About you, go the same way: I am as "the user is a man" or "a woman" (Something else: your name or "they"),
   and My birthday only as "it's the user's birthday today" on the day, with your age if you gave one, never the date.
 - **About them.** Who a person is to you, your note about them, their They are ("Dana is a woman: she/her", only when
   you set it, never guessed) and their related people, as you set them in People,
-  go with questions, reply ideas, tone changes and Help me say it about them, and, while Use My Voice is on, how you
-  text them. Who they are to you goes with a scheduled message's drafts to them too, and the AI is told to address
+  go with questions, reply ideas, tone changes and Help me say it about them, and with the keyboard's Reply ideas,
+  Rewrite and Ask AI in a chat with them it is sure of, and, while Use My Voice is on, how you text them. Who they are to you goes with a scheduled message's drafts to them too, and the AI is told to address
   them only as your own texts to them do. Their About (your notes and what the app learned from your texts with them) goes with reply ideas on
   screen and Help me say it, and with an alert's ideas only when Full reply ideas is on.
 - **A report you email.** If you report an AI answer (press and hold it, Report this answer), the report stays on the
@@ -144,21 +146,27 @@ noted about that person and your About you go along. And a scheduled message you
   two), the guide's list of pages and the last four questions and answers of the help chat go to the model you picked
   for help answers; never your texts.
 - **The Message AI keyboard.** What you type stays on the phone. Only when you tap Reply ideas, Rewrite or Ask AI does
-  it go to your AI company: the box's text, and for Reply ideas and Ask AI the chat's captured messages and the lines you
-  kept from this keyboard (in a text conversation, your last 20 texts with that person). In the apps you turn on, the messages you send are kept on this
+  it go to your AI company: the box's text and About you; in a chat it's sure of, who that person is to you (in a group,
+  only the They are you set for its people); and for Reply ideas and Ask AI the chat's captured messages and the lines
+  you kept from this keyboard (in a text conversation, your last 20 texts with that person). In the apps you turn on, the messages you send are kept on this
   phone as your side of the chat; never a password, a search box or a private box. A message sent while the keyboard
   isn’t sure of the chat waits on the phone for its chat, read by nothing until it is in one, and goes after 7 days if it
   never is. Voice typing runs on the phone; the audio never leaves it. Reply ideas
   sends what is in the box with the chat its strip names, as the app's own Reply ideas sends it (in a WhatsApp chat
   its captured messages and the lines you kept from this keyboard; in a text conversation up to your last 20 texts
   with that person), and General ideas only
-  what is in the box. Rewrite sends only what is in the box, once for each of your three reply tones. Ask AI sends the
+  what is in the box. Rewrite sends what is in the box and, in a chat the keyboard is sure of, who that person is to
+  you, as Rewrite in the app does, once for each of your three reply tones; never the chat's messages. Ask AI sends the
   question you type in its own panel with that chat's captured messages and the lines you kept from this keyboard (in
-  a text conversation, your last 20 texts
-  with that person), never the screen, and its answer stays in
-  the panel until you tap Insert. Your first name, My Voice and About you go along as they do with reply ideas. The
-  first of these taps asks first, once for each AI company, naming the company and what goes, and asks once more when
-  what it says changes (as when the lines you kept began to go too); turning the keyboard on is not that OK. In a
+  a text conversation, your last 20 texts with that person), with who that person is to you and whose birthday it is
+  today or yesterday (never a date), as Ask AI about a conversation does in the app, never the screen, and its answer
+  stays in the panel until you tap Insert. When the keyboard only guesses the chat, Rewrite sends nothing about a
+  person, and Reply ideas and Ask AI first ask which chat. Your first name and About you go along with all three, as
+  they do with reply ideas. While Use My Voice is on, Reply ideas and Rewrite write in how you text that person (in a
+  chat the keyboard is sure of, once it was learned), else in your general voice; Ask AI gets only how you text that
+  person, in a chat it is sure of, never your general voice. The first of these taps asks first, once for each AI
+  company, naming the company and what goes, and asks once more when what it says changes (as when the lines you kept
+  began to go too, and when who the person is began to go); turning the keyboard on is not that OK. In a
   password, PIN, card, number or phone box, a box that asks for no learning, or the keyboard's Private mode, nothing
   goes at all, and nothing is kept. The keyboard keeps nothing else you type (only the messages you send, after Keep
   them), never reads the clipboard or the screen, and needs no network to type. A line kept from the keyboard is your
