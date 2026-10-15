@@ -78,7 +78,9 @@ noted about that person and your About you go along. And a scheduled message you
 - **Names and ages.** Each message the AI reads goes with its sender's name as your contacts have it, or the number
   when there is no contact. When a person's birthday is known (typed by you, or from your contacts), questions and reply
   ideas about them say roughly how old they are ("about 12", never the date), and reply ideas on the day say it is their
-  birthday. In a chat the AI reads (reply ideas, an alert's too, Catch me up, Ask AI about a conversation, the
+  birthday. Ask AI about one person (the app's, in a chat about their conversation, or the keyboard's, in a chat with
+  them it is sure of) gets their birthday's month and day from their page instead of how old they are, never the year.
+  In a chat the AI reads (reply ideas, an alert's too, Catch me up, Ask AI about a conversation, the
   keyboard's Ask AI in a chat it is sure of), the phone works out whose birthday it is today or yesterday among you and
   the people in it, so a "happy birthday" there is never taken as yours unless it is: in a group, only whose birthday it
   is today or yesterday, worked out on the phone, and the They are you set for the people in it; never a date. A tone
@@ -158,18 +160,23 @@ noted about that person and your About you go along. And a scheduled message you
   what is in the box. Rewrite sends what is in the box and, in a chat the keyboard is sure of, who that person is to
   you, as Rewrite in the app does, once for each of your three reply tones; never the chat's messages. Ask AI sends the
   question you type in its own panel with that chat's captured messages and the lines you kept from this keyboard (in
-  a text conversation, your last 20 texts with that person), with who that person is to you and whose birthday it is
-  today or yesterday (never a date), as Ask AI about a conversation does in the app, never the screen, and its answer
-  stays in the panel until you tap Insert. When the keyboard only guesses the chat, Rewrite sends nothing about a
+  a text conversation, your last 20 texts with that person), with who that person is to you, their birthday's month
+  and day from their page (never the year) and whose birthday it is today or yesterday, as Ask AI about a conversation
+  does in the app, never the screen, and its answer stays in the panel until you tap Insert. Its panel's box can paste
+  what you copied (its paste icon, or a press and hold): the keyboard reads the clipboard then, and only then, and what
+  it pastes goes nowhere until you tap the arrow, as anything you type there. When the keyboard only guesses the chat,
+  Rewrite sends nothing about a
   person, and Reply ideas and Ask AI first ask which chat. Your first name and About you go along with all three, as
   they do with reply ideas. While Use My Voice is on, Reply ideas and Rewrite write in how you text that person (in a
   chat the keyboard is sure of, once it was learned), else in your general voice; Ask AI gets only how you text that
   person, in a chat it is sure of, never your general voice. The first of these taps asks first, once for each AI
   company, naming the company and what goes, and asks once more when what it says changes (as when the lines you kept
-  began to go too, and when who the person is began to go); turning the keyboard on is not that OK. In a
+  began to go too, when who the person is began to go, and when Ask AI began to send a person's birthday); turning the
+  keyboard on is not that OK. In a
   password, PIN, card, number or phone box, a box that asks for no learning, or the keyboard's Private mode, nothing
   goes at all, and nothing is kept. The keyboard keeps nothing else you type (only the messages you send, after Keep
-  them), never reads the clipboard or the screen, and needs no network to type. A line kept from the keyboard is your
+  them), never reads the screen, reads the clipboard only when you paste into its Ask AI box yourself (never a copy
+  marked sensitive, such as a password), and needs no network to type. A line kept from the keyboard is your
   side of its chat: Reply ideas, Ask AI, Catch me up and My Voice read it with that chat's messages, and it goes to your
   AI company only with them, on your tap, as your texts do. A line that still needs a chat is read by none of them, nor
   by About you, Home's insights or any AI call, until it is in a chat; asking which chat (the keyboard's "Which chat?")
@@ -252,9 +259,10 @@ hold.
 - Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
   Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
-- The Message AI keyboard never logs what you type, never reads the clipboard or the screen, and never does a box's
-  Send by itself: putting an idea or an answer in the box is not sending it. Its voice typing never records what you say
-  and never sends the audio anywhere: the phone's own recognizer turns it into words on the phone.
+- The Message AI keyboard never logs what you type, never reads the screen, reads the clipboard only when you paste into
+  its Ask AI box yourself, and never does a box's Send by itself: putting an idea or an answer in the box is not sending
+  it. Its voice typing never records what you say and never sends the audio anywhere: the phone's own recognizer turns
+  it into words on the phone.
 
 ## Permissions, and why each is asked
 
