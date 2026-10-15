@@ -46,7 +46,7 @@ problem or Send feedback (below).
 - **The Reminders widget** on the home screen shows how many reminders are still coming today and their times, or each
   reminder's words if you turn that on in Settings › Messages and alerts; nothing leaves the phone because of it.
 - **Your side of chats in other apps**, only if you turn it on: the messages you send with the Message AI keyboard after
-  its card's Keep them, in the messaging apps whose switch is on (Settings › Messages and alerts › Keep the messages you
+  its card's Keep them, in the messaging apps whose switch is on (Settings › Keyboard › Keep the messages you
   send), kept as your side of each chat in the app's private storage, never backed up (excluded from cloud backup and
   device-to-device transfer). Never a password, a search box or a private box. A message sent while the keyboard isn’t
   sure of the chat is kept apart, in no chat, waiting for its chat (your pick on the keyboard, its chat's alert opened
@@ -275,7 +275,7 @@ hold.
 - **The Message AI keyboard** (optional): one permission of its own, the microphone, only for voice typing. It is
   asked at your first tap on the keyboard's mic: first the keyboard's own card ("Type with your voice?", with Turn on
   voice), then Android's own ask, once. The phone's own on-device speech recognizer turns your voice into words; the
-  audio never leaves the phone. Only Android's own keyboard list turns the keyboard on (Settings › Messages and alerts ›
+  audio never leaves the phone. Only Android's own keyboard list turns the keyboard on (Settings ›
   Keyboard opens it), after Android's warning that a keyboard it didn't make may collect what you type. It starts only
   after the phone's first unlock.
 
@@ -293,7 +293,7 @@ hold.
 - **Settings › Messages and alerts › Scheduled messages:** pause or delete any scheduled message (Delete with Undo);
   a paused one writes no drafts and runs no checks.
 - **Settings › AI:** remove any key at any time; chats on that company stop at once.
-- **Settings › Messages and alerts › Keyboard:** turn the Message AI keyboard on; Keep the messages you send (its own
+- **Settings › Keyboard:** turn the Message AI keyboard on; Keep the messages you send (its own
   card, Not now or Keep them) and, once on, a switch for each messaging app; its strip's ⋮ has Private mode, and
   Android's keyboard settings turn it off. A press and hold on a word the keyboard learned, in its row of words, forgets
   it (with Undo). A line From your keyboard goes with a tap on its tag (Remove, with Undo).
