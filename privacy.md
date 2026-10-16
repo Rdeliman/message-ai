@@ -151,7 +151,7 @@ noted about that person and your About you go along. And a scheduled message you
 - **The Message AI keyboard.** What you type stays on the phone. Only when you tap Reply ideas, Rewrite or Ask AI does
   it go to your AI company: the box's text and About you; in a chat it's sure of, who that person is to you (in a group,
   only the They are you set for its people); and for Reply ideas and Ask AI the chat's captured messages and the lines
-  you kept from this keyboard (in a text conversation, your last 20 texts with that person). In the apps you turn on, the messages you send are kept on this
+  you kept from this keyboard (in a text conversation, your last 20 texts with that person). In test builds, Record my taps (Settings › Keyboard, off until you turn it on) keeps on this phone where your thumbs land on the bottom two rows of keys, as numbers: a key by its place in its row (which names the key), never the words, never in a private box; only its counts leave, with Share diagnostics when that is on, and turning it off deletes it. In the apps you turn on, the messages you send are kept on this
   phone as your side of the chat; never a password, a search box or a private box. A message sent while the keyboard
   isn’t sure of the chat waits on the phone for its chat, read by nothing until it is in one, and goes after 7 days if it
   never is. Voice typing runs on the phone; the audio never leaves it. Reply ideas
