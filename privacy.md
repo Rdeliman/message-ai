@@ -10,8 +10,9 @@ in the app. When a feature changes what leaves the phone, this page changes with
 Message AI reads your texts on your phone to answer questions about them, suggest replies and remind you who is
 waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, turn on
 "Prepare reply ideas as texts arrive", or save a scheduled message, and then it goes only to the AI company you chose
-and gave your own key for.
-Your key alone also goes to that company, to check it and to read its models, limits and costs: never any text.
+and gave your own key for, or to an address you set yourself.
+Your key alone also goes to that company or address, to check it and to read its models, limits and costs: never any
+text.
 Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no analytics
 company and no advertising. The one thing that can come to us is a beta tester's diagnostics log, only if they turn
 "Share diagnostics (beta)" on: what the app did, never what anyone wrote, and what they choose to send with Report a
@@ -186,8 +187,9 @@ noted about that person and your About you go along. And a scheduled message you
   mic is greyed. The words it typed go to your AI company only as typed text does, when you tap Reply ideas, Rewrite or
   Ask AI.
 - **OpenRouter's record of a call**: the call's own id, to read what OpenRouter charged for it. Never any text.
-- **Your key alone**: when the app lists a company's models, reads your OpenRouter key's limits, or reads OpenAI's
-  costs with an admin key, only the key goes, never any text.
+- **Your key alone**: when the app lists a company's or your own endpoint's models, reads your OpenRouter key's
+  limits, or reads OpenAI's costs with an admin key, only the key goes, never any text. Picking a model of your own
+  endpoint sends it one short test question the app wrote, to see that it can look up texts; never your texts.
 - **Diagnostics (beta).** Off unless you turn on "Share diagnostics (beta)" (Settings › Privacy and data, in beta
   builds; the setup checklist asks once). Then about once an hour a log of what the app did, each event timed and
   numbered in order, goes to Message AI's own private inbox, which deletes it after 90 days: when it opens and how fast,
@@ -224,7 +226,8 @@ noted about that person and your About you go along. And a scheduled message you
   phone; what was already sent is deleted from the inbox, with any screenshots, and your notes come off the beta's
   GitHub page; those 3-day records simply expire. Anything still waiting on the phone is deleted too.
 
-Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company. We never see it.
+Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company, except a plain http
+address you set inside your home network. We never see it.
 Diagnostics (beta) is the one exception: it comes to us, over HTTPS too, and holds none of it, except whatever a
 screenshot you add to Send feedback shows.
 
@@ -246,6 +249,10 @@ saved, and again under Settings › Privacy and data › What leaves the phone:
 - **Chatbox AI:** a gateway; prompts go to Chatbox AI, which passes them to the company that runs the model you pick
   (OpenAI, Anthropic, Google, DeepSeek, Moonshot, xAI, Alibaba and others). Chatbox says it keeps nothing after the
   answer; the model company's own rules apply there.
+- **Your own endpoint:** an address you set yourself, a model on your own computer or a cloud gateway that speaks
+  OpenAI’s format. What you ask goes to that address and nowhere else; what that server does with it is between you and
+  it. Plain http is allowed only for an address inside your home network, where anyone on that network could read what
+  goes.
 
 Their own policies apply once a message reaches them. Message AI has no agreement with any of them beyond the key you
 hold.
@@ -255,7 +262,8 @@ hold.
 - Never sends a message without your confirm. A reply you choose goes out through your messaging app: through its own
   Reply on the notification once you tap Send, or opened there with the text filled in for you to send. A scheduled
   message's draft waits for your tap the same way, and is never sent after its event starts.
-- Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key.
+- Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key or an
+  address.
 - Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
   Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
