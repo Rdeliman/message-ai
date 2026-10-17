@@ -238,7 +238,8 @@ saved, and again under Settings › Privacy and data › What leaves the phone:
 
 - **Anthropic (Claude):** not used for training by default; deleted within 30 days.
 - **Google (Gemini):** on the free tier, prompts may be reviewed and used to improve Google products; the paid tier is
-  not used that way.
+  not used that way. Message AI asks Google to leave only its fixed filters on, the ones no setting changes, for
+  everything it sends over your own messages; what leaves the phone does not change.
 - **Nous Research:** a gateway that passes prompts to the company that runs the model, and may store and train on them
   unless Privacy Mode is on in the Nous portal.
 - **OpenRouter:** a gateway; prompts go on to the company that runs the model you pick, and your OpenRouter privacy
