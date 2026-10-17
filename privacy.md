@@ -23,12 +23,15 @@ problem or Send feedback (below).
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
   app sees arrive in WhatsApp and Instagram. They are kept in an index in the app's private storage, excluded from cloud backup and
   device-to-device transfer.
-- **Messages you import yourself:** a WhatsApp chat you export and share to the app, and an iMessage history from an old
-  iPhone (a file a converter on your own computer makes from the iPhone's backup, which you copy to the phone and share
-  to the app). The file is read on the phone and its copy is deleted once read (an iPhone history's when its import
-  finishes); the messages are kept like the others. Photos and videos are not in the file. Nothing is sent when you
-  import; the messages go to your AI company only as any messages do, below. The converter runs on your computer only
-  and sends nothing anywhere.
+- **Messages you import yourself:** a WhatsApp chat you export and share to the app, your Instagram messages from the
+  export Instagram makes of your account (Accounts Center › Export your information, Messages in JSON: the zip Meta
+  prepares lands on the phone and you share it to the app), and an iMessage history from an old iPhone (a file a
+  converter on your own computer makes from the iPhone's backup, which you copy to the phone and share to the app). The
+  file is read on the phone and its copy is deleted once read (an Instagram export's and an iPhone history's when their
+  import finishes); the messages are kept like the others. Photos, videos and voice recordings are never copied out of
+  the file. Nothing is sent when you import, and the app never logs in to Instagram or calls a Meta server; the messages
+  go to your AI company only as any messages do, below. The converter runs on your computer only and sends nothing
+  anywhere.
 - **Your contacts** (names and birthdays for the numbers you text and the contacts you add to People) and **your call
   history** (only if you allow it, to know when you talked instead of texting). Neither list is ever sent; a name, an
   approximate age or a call's time and length can go with a question, as described below.
