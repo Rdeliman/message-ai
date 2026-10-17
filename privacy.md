@@ -2,7 +2,7 @@
 title: Message AI privacy policy
 ---
 
-Last updated 15 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
+Last updated 17 October 2026. Written from what the app does today; every sentence here matches a screen or a notice
 in the app. When a feature changes what leaves the phone, this page changes with it.
 
 ## The short version
@@ -11,6 +11,8 @@ Message AI reads your texts on your phone to answer questions about them, sugges
 waiting. It keeps everything on the phone. The only time anything leaves is when you ask the AI something, turn on
 "Prepare reply ideas as texts arrive", or save a scheduled message, and then it goes only to the AI company you chose
 and gave your own key for, or to an address you set yourself.
+If you turn on "Back up with Google" (off unless you do), Android's own backup also keeps a copy of the app's data in
+your Google account, encrypted with your screen lock; never your AI keys.
 Your key alone also goes to that company or address, to check it and to read its models, limits and costs: never any
 text.
 Nobody who makes Message AI ever receives your messages, your contacts or your keys. There is no account, no analytics
@@ -21,8 +23,8 @@ problem or Send feedback (below).
 ## What stays on the phone
 
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
-  app sees arrive in WhatsApp and Instagram. They are kept in an index in the app's private storage, excluded from cloud backup and
-  device-to-device transfer.
+  app sees arrive in WhatsApp and Instagram. They are kept in an index in the app's private storage, backed up only if you
+  turn on Back up with Google (off unless you do; see Google backup, below).
 - **Messages you import yourself:** a WhatsApp chat you export and share to the app, your Instagram messages from the
   export Instagram makes of your account (Accounts Center › Export your information, Messages in JSON: the zip Meta
   prepares lands on the phone and you share it to the app), and an iMessage history from an old iPhone (a file a
@@ -52,8 +54,8 @@ problem or Send feedback (below).
   reminder's words if you turn that on in Settings › Messages and alerts; nothing leaves the phone because of it.
 - **Your side of chats in other apps**, only if you turn it on: the messages you send with the Message AI keyboard after
   its card's Keep them, in the messaging apps whose switch is on (Settings › Keyboard › Keep the messages you
-  send), kept as your side of each chat in the app's private storage, never backed up (excluded from cloud backup and
-  device-to-device transfer). Never a password, a search box or a private box. A message sent while the keyboard isn’t
+  send), kept as your side of each chat in the app's private storage, backed up only if you turn on Back up with Google
+  (off unless you do; see Google backup, below). Never a password, a search box or a private box. A message sent while the keyboard isn’t
   sure of the chat is kept apart, in no chat, waiting for its chat (your pick on the keyboard, its chat's alert opened
   while you are still in that box, the same words at the same minute in a later export or alert of that app, or Home's
   card); nothing reads it until it is in a chat, and it goes after 7 days if it never is. Kept until you remove them or
@@ -73,7 +75,8 @@ company as it arrives, with up to your last 20 texts with that person (in a What
 messages before it), so the alert can offer reply ideas, and whose birthday it is today or yesterday among you and the people in that
 chat, worked out on the phone (never a date; see Names and ages); with "Full reply ideas" on as well, what the app has
 noted about that person and your About you go along. And a scheduled message you save writes its drafts at their times
-(Scheduled messages, below). Otherwise:
+(Scheduled messages, below). And with Back up with Google on (off unless you turn it on), Android's own backup takes a
+copy of the app's data to your Google account (Google backup, below). Otherwise:
 
 - **A question in Ask AI, Reply ideas, a draft, Catch me up.** The AI searches the on-device index and the messages it
   opens are sent to the AI company of that chat, including what others wrote to you. You see every lookup under the
@@ -92,9 +95,9 @@ noted about that person and your About you go along. And a scheduled message you
   change in a group (the app's, or the keyboard's Rewrite) gets only that They are, never a birthday. Your contact list
   itself is never sent.
 - **Calls.** Catch me up sends the calls with that person in the stretch it covers; Reply ideas, a call after their last
-  message; a question that reads a WhatsApp chat, the calls in it: when each was, how long it lasted, which way it
-  went and whether it was missed. They come from your call history, if you allowed it, and from WhatsApp's call
-  notifications. Never the number, never any audio, never the rest of your call history.
+  message; a question that reads a WhatsApp or Instagram chat, the calls in it: when each was, how long it lasted, which
+  way it went and whether it was missed. They come from your call history, if you allowed it, and from a captured app's
+  call notifications (WhatsApp's and Instagram's). Never the number, never any audio, never the rest of your call history.
 - **My Voice.** While Use My Voice is on, what the app learned about how you write (a short description and a few
   example lines of yours) goes along with reply ideas, drafts and tone changes; the texts it learned from do not.
 - **About you.** While Use About you is on, its notes go with reply ideas, drafts, tone changes, Ask AI and Catch me up,
@@ -229,6 +232,23 @@ noted about that person and your About you go along. And a scheduled message you
   never keeps your internet address or where you are. Turning it off stops sending and deletes the install id on this
   phone; what was already sent is deleted from the inbox, with any screenshots, and your notes come off the beta's
   GitHub page; those 3-day records simply expire. Anything still waiting on the phone is deleted too.
+- **Google backup.** Off unless you turn on "Back up with Google" (Settings › Privacy and data; its card asks first).
+  Then Android's own backup, about once a day while the phone is idle and on Wi-Fi, takes a copy of the app's data to
+  your Google account: the message index and the messages captured, imported or kept from the keyboard, your chats with
+  the AI, your people and what was learned about them, About you, My Voice, your tones, reminders, scheduled messages,
+  the AI spending log, your reports and your settings. Never your AI keys (each is locked with a key that never leaves
+  the phone, and the app leaves them out of the copy), the beta's diagnostics and their install id, the words the
+  keyboard learned, the photos the AI looked at or the voice recordings. Android encrypts the copy with your screen
+  lock's PIN, pattern or password before it leaves the phone; Message AI gives Android nothing it can't encrypt that way
+  (no screen lock, or Android 8, where the switch stays off). Google keeps one copy, the newest, up to 25 MB for the
+  app; a bigger one is not taken, and the switch's line says so. That copy is Google's to keep, in your Google account
+  under Google's own terms: nobody who makes Message AI can see it, and Message AI cannot delete it (that is done in
+  your Google account's own backup settings). Android puts it back when you reinstall Message AI or set up a new phone with the
+  same Google account, and with the switch on, Android's own cable transfer to a new phone carries the same copy, with
+  no 25 MB limit and no server between. The first time the app opens after that, it asks for your AI keys again and
+  keeps Message AI alerts, Remind me when someone is waiting, the keyboard's Keep and every scheduled message off until
+  you turn them on there; nothing is sent to bring it back. Turned off, Message AI gives Android's backup nothing from
+  then on; a copy made earlier stays in your Google account until Google replaces or removes it.
 
 Each of those goes over an encrypted connection (HTTPS) directly from your phone to that company, except a plain http
 address you set inside your home network. We never see it.
@@ -268,7 +288,8 @@ hold.
   Reply on the notification once you tap Send, or opened there with the text filled in for you to send. A scheduled
   message's draft waits for your tap the same way, and is never sent after its event starts.
 - Never sends your messages, contacts, photos or keys to us, or to anyone you did not pick by adding a key or an
-  address.
+  address. The one other place a copy can go is your own Google account, through Android's own backup, only while you
+  have Back up with Google on, and never your keys.
 - Never runs advertising or tracking, and no analytics company's code is in the app. Share diagnostics (beta) is
   Message AI's own log of what the app did, off unless you turn it on. There is no account and no sign-in.
 - In the demo ("Try a demo first"), nothing leaves the phone at all: three sample people, prepared answers.
@@ -297,7 +318,8 @@ hold.
 ## Your controls
 
 - **Settings › Privacy and data:** What leaves the phone, Reports (answers you reported: email one or all, delete
-  any time), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
+  any time), Back up with Google (off unless you turn it on; Delete everything leaves it as you set it, so with it on
+  Android's next backup holds the emptied app), Delete all chats, Delete everything (the index, every chat, every key, My Voice, About you, your people
   and their links, your tones, captured messages, your lines kept from the keyboard, the words the keyboard learned and
   its recent emoji, reminders, scheduled messages, the
   AI spending log, setup progress and every report are
@@ -318,7 +340,8 @@ hold.
   its voice card again (the microphone itself is Android's to turn off: Settings › Apps › Message AI › Permissions).
 - **Settings › Messages and alerts › Clear notification history** removes the captured messages and the imported ones
   (a WhatsApp export's, an iMessage history's). An iMessage chat's ⋮ has Remove all iMessage chats.
-- **Uninstalling the app** removes everything it kept.
+- **Uninstalling the app** removes everything it kept on the phone. With Back up with Google on, the copy in your Google
+  account stays there, Google's to keep, and comes back if you install the app again with that account.
 
 ## Children
 
