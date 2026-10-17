@@ -28,8 +28,9 @@ problem or Send feedback (below).
   prepares lands on the phone and you share it to the app), and an iMessage history from an old iPhone (a file a
   converter on your own computer makes from the iPhone's backup, which you copy to the phone and share to the app). The
   file is read on the phone and its copy is deleted once read (an Instagram export's and an iPhone history's when their
-  import finishes); the messages are kept like the others. Photos, videos and voice recordings are never copied out of
-  the file. Nothing is sent when you import, and the app never logs in to Instagram or calls a Meta server; the messages
+  import finishes); the messages are kept like the others. Photos and videos are never copied out of the file. An
+  Instagram export's voice messages are turned into words on the phone; the audio never leaves it and is deleted once
+  its words are kept. Nothing is sent when you import, and the app never logs in to Instagram or calls a Meta server; the messages
   go to your AI company only as any messages do, below. The converter runs on your computer only and sends nothing
   anywhere.
 - **Your contacts** (names and birthdays for the numbers you text and the contacts you add to People) and **your call
