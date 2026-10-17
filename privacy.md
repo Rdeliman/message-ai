@@ -21,7 +21,7 @@ problem or Send feedback (below).
 ## What stays on the phone
 
 - **Your messages.** SMS and MMS read from the phone's own store, and, if you turn notification access on, messages the
-  app sees arrive in WhatsApp. They are kept in an index in the app's private storage, excluded from cloud backup and
+  app sees arrive in WhatsApp and Instagram. They are kept in an index in the app's private storage, excluded from cloud backup and
   device-to-device transfer.
 - **Messages you import yourself:** a WhatsApp chat you export and share to the app, and an iMessage history from an old
   iPhone (a file a converter on your own computer makes from the iPhone's backup, which you copy to the phone and share
@@ -65,8 +65,8 @@ problem or Send feedback (below).
 
 Nothing leaves until you ask the AI something, with two exceptions you set up yourself: with "Prepare reply ideas as
 texts arrive" on (off unless you turn it on, under Settings › Messages and alerts), each new message goes to your AI
-company as it arrives, with up to your last 20 texts with that person (in a WhatsApp chat, up to five messages before
-it), so the alert can offer reply ideas, and whose birthday it is today or yesterday among you and the people in that
+company as it arrives, with up to your last 20 texts with that person (in a WhatsApp or Instagram chat, up to five
+messages before it), so the alert can offer reply ideas, and whose birthday it is today or yesterday among you and the people in that
 chat, worked out on the phone (never a date; see Names and ages); with "Full reply ideas" on as well, what the app has
 noted about that person and your About you go along. And a scheduled message you save writes its drafts at their times
 (Scheduled messages, below). Otherwise:
@@ -276,8 +276,10 @@ hold.
 
 - **SMS and MMS:** to read your texts into the index. Required for the app to be useful with your own messages.
 - **Contacts:** names and birthdays for the numbers you text and the contacts you add to People, and the people you link.
-- **Notification access** (optional): to see WhatsApp messages as they arrive. Nothing is sent back through it unless
-  you tap Send on a reply, and then the reply goes through WhatsApp's own notification reply.
+- **Notification access** (optional): to see WhatsApp and Instagram messages as they arrive. Nothing is sent back
+  through it unless you tap Send on a reply, and then the reply goes through that app's own notification reply.
+  Nothing goes to Instagram's servers and there is no login; an alert the app can't read is counted on the phone, never
+  kept as a message, and Report a problem sends only the counts and kinds, never words.
 - **Call log** (optional): to know when you talked instead of texting.
 - **Notifications:** for the app's own reminders and alerts.
 - **The Message AI keyboard** (optional): one permission of its own, the microphone, only for voice typing. It is
